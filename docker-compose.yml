@@ -3,9 +3,9 @@ services:
   postgres:
     image: postgres:latest
     environment:
-      POSTGRES_DB: property_db
-      POSTGRES_USER: property_user
-      POSTGRES_PASSWORD: property_pass
+      POSTGRES_DB: property_caching
+      POSTGRES_USER: localoot
+      POSTGRES_PASSWORD: localoot
     ports:
       - "5432:5432"
     volumes:
